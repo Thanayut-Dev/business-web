@@ -1,0 +1,58 @@
+<mat-toolbar>
+  <div fxFill fxLayout="row" fxLayoutAlign="start center">
+    <div fxFlex="1 0 auto" fxLayout="row" fxLayoutAlign="start center">
+      <!-- <button mat-icon-button class="navbar-toggle-button">
+              <mat-icon class="secondary-text">menu</mat-icon>
+          </button> -->
+
+      <div fxLayout="row" fxLayoutAlign="start center">
+        <div class="logo">
+          <img class="logo-icon" src="assets/images/logo/logo.svg">
+        </div>
+      </div>
+
+      <div class="" fxLayout="row" fxLayoutAlign="start center" style="padding-left: 50px; padding-top: 10px;">
+        <a mat-list-item class="mat-list" [routerLink]="['/home']" routerLinkActive="router-link-active">
+          <mat-icon>home</mat-icon>
+        </a>
+        <a mat-list-item class="mat-list" [routerLink]="['/home']" routerLinkActive="router-link-active">
+          <mat-icon>dashboard</mat-icon>
+        </a>
+        <a mat-list-item class="mat-list" [routerLink]="['/home']" routerLinkActive="router-link-active">
+          <mat-icon>dashboard</mat-icon>
+        </a>
+        <a mat-list-item class="mat-list" [routerLink]="['/home']" routerLinkActive="router-link-active">
+          <mat-icon>dashboard</mat-icon>
+        </a>
+      </div>
+
+    </div>
+
+
+    <div class="" fxFlex="0 1 auto" fxLayout="row" fxLayoutAlign="start center">
+      <button mat-button>
+        <mat-icon>notifications</mat-icon>
+      </button>
+
+
+
+      <!-- <button mat-button [matMenuTriggerFor]="userMenu" class="user-button">
+              <div fxLayout="row" fxLayoutAlign="center center">
+                  {{user.firstname | shotName}} {{user.lastname | shotName}}
+              </div>
+          </button> -->
+
+      <!-- <mat-menu #userMenu="matMenu" [overlapTrigger]="false">
+
+              <button mat-menu-item (click)="logout()">
+                  <mat-icon>exit_to_app</mat-icon>
+                  <span>Logout</span>
+              </button>
+
+
+          </mat-menu> -->
+
+
+    </div>
+  </div>
+</mat-toolbar>

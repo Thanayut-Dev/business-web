@@ -17,8 +17,6 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { MatCardModule } from '@angular/material/card';
 
-
-import { DirectivesModule } from './directives/directive.module';
 import { PipesModule } from './pipes/pipe.module';
 
 
@@ -44,7 +42,6 @@ import { PipesModule } from './pipes/pipe.module';
     MatFormFieldModule,
     MatCardModule,
 
-    DirectivesModule,
     PipesModule
   ],
   exports: [
@@ -66,7 +63,6 @@ import { PipesModule } from './pipes/pipe.module';
     MatFormFieldModule,
     MatCardModule,
 
-    DirectivesModule,
     PipesModule
   ]
 })
